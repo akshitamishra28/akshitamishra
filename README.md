@@ -1,5 +1,7 @@
-# akshitamishra
-This is my first repository
-<br>
-I am a student of cse ds_1
+#akshita_mishra
+I am Akshita Mishra
+I am cse-ds engineering student at ABES Engineering College,Ghaziabad
+This is my first git repository
+
+
 
