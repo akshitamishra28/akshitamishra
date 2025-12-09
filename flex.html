@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            border: 2px solid black;
+        }
+        .one{
+            background-color: rgb(255, 0, 230);
+            border: 1px solid black;
+            margin: 4px;
+            display: flex;
+            justify-content: center;
+             align-items: center;
+
+        }
+       .item1{
+        flex-basis: 30%;
+       }
+       .card{
+        border-radius: 8px solid black;
+        box-shadow: 4px;
+       }
+       .avatar{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        font-size: 20px;
+        margin: auto 12px
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        <div class="item1">
+            <div class="avatar">AB</div>
+            <h2>Aalia Bhatt</h2> 
+            <p>Class- Btech CSE</p>
+        </div>
+        <div class="item2">
+            <div class="avatar">SK</div>
+            <h2>Shraddha kapoor</h2>
+            <p>Claas-Btech ECE</p>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
